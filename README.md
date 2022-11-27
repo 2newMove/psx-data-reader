@@ -30,13 +30,19 @@ $ pip install psx-data-reader
 ```
 
 ## Usage
+First import these libs 
+import pandas
+import pandas_datareader
+import psx
+from psx import stocks, tickers
+import datetime
 
 First, import stocks and tickers from psx
 
 ```
 from psx import stocks, tickers
 ```
-
+Then,
 to get the information of all the companies in Pakistan stock Exchange....
 
 ```
